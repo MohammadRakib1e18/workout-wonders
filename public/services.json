@@ -2,21 +2,21 @@
   {
     "index": 0,
     "picture": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
-    "name": "Young Nieves",
+    "name": "Bar Lift",
     "duration": 25,
     "button": "Add to list"
   },
   {
     "index": 1,
     "picture": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    "name": "Mckay Hopkins",
+    "name": "Curly Barbel Lift",
     "duration": 45,
     "button": "Add to list"
   },
   {
     "index": 2,
     "picture": "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80",
-    "name": "Greta Copeland",
+    "name": "Cycling",
     "duration": 70,
     "button": "Add to list"
   },
@@ -30,56 +30,56 @@
   {
     "index": 4,
     "picture": "https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    "name": "Elsie Miranda",
+    "name": "Dead Lift",
     "duration": 30,
     "button": "Add to list"
   },
   {
     "index": 5,
     "picture": "https://images.unsplash.com/photo-1576678927484-cc907957088c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-    "name": "Villarreal Mcpherson",
+    "name": "Dumbell",
     "duration": 35,
     "button": "Add to list"
   },
   {
     "index": 6,
     "picture": "https://images.unsplash.com/photo-1580261450046-d0a30080dc9b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=409&q=80",
-    "name": "Alexandra Davidson",
+    "name": "Squat",
     "duration": 40,
     "button": "Add to list"
   },
   {
     "index": 7,
     "picture": "https://images.unsplash.com/photo-1549476464-37392f717541?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-    "name": "Marlene Juarez",
+    "name": "Bicep Pump",
     "duration": 35,
     "button": "Add to list"
   },
   {
     "index": 8,
     "picture": "https://images.unsplash.com/photo-1601986313624-28c11ac26334?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
-    "name": "Walters Cox",
+    "name": "Abs",
     "duration": 23,
     "button": "Add to list"
   },
   {
     "index": 9,
     "picture": "https://images.unsplash.com/photo-1604480133435-25b86862d276?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
-    "name": "Meagan Wyatt",
+    "name": "Tricep",
     "duration": 28,
     "button": "Add to list"
   },
   {
     "index": 10,
     "picture": "https://images.unsplash.com/photo-1613080828608-7600e9186fcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-    "name": "Tammie Garrett",
+    "name": "Chest",
     "duration": 22,
     "button": "Add to list"
   },
   {
     "index": 11,
     "picture": "https://images.unsplash.com/photo-1483721310020-03333e577078?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
-    "name": "Howe Fuentes",
+    "name": "Calves",
     "duration": 120,
     "button": "Add to list"
   }

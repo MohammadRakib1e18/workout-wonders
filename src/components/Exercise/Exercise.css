@@ -46,11 +46,19 @@
     cursor: pointer;
 }
 
-/* tablet device  */
-@media screen and (min-width:689px) and (max-width:992px){
+/* mobile device  */
+@media screen and (max-width: 720px){
     .exercise img{
-        width: 150px;
-        height: 150px;
+        width: 350px;
+        height: 350px;
+    }
+}
+/* tablet device  */
+
+@media screen and (min-width:721px) and (max-width:992px){
+    .exercise img{
+        width: 160px;
+        height: 160px;
     }
 
 }
