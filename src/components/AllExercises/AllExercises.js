@@ -5,6 +5,7 @@ import './AllExercises.css';
 
 const AllExercises = () => {
     const [loadedData, setLoadedData] = useState([]);
+    const [exerciseDuration, setExerciseDuration] = useState(0);
 
 
     useEffect(()=>{
@@ -13,8 +14,8 @@ const AllExercises = () => {
         .then(data => setLoadedData(data));
     },[])
 
-    const addToCart = (name) => {
-        console.log(name);
+    const addToCart = (duration) => {
+        setExerciseDuration(exerciseDuration+duration);
     }
 
     return (
@@ -25,7 +26,7 @@ const AllExercises = () => {
                 }
             </section>
             <section className='cart-container'>
-                <SideBar></SideBar>
+                <SideBar duration={exerciseDuration}></SideBar>
             </section>
         </div>
     );

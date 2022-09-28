@@ -11,7 +11,7 @@ const Exercise = (props) => {
           <h3>{name}</h3>
           <small>Duration: {duration}s</small>
         </section>
-        <button onClick={() => {addToCart(name)}}>{button}</button>
+        <button onClick={() => {addToCart(duration)}}>{button}</button>
       </div>
     );
 };
