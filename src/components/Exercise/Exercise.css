@@ -1,0 +1,45 @@
+.exercise{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.exercise-description{
+    margin:0 15px;
+}
+.exercise img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: block;
+    margin: 10px auto;
+
+}
+.exercise h3{
+    margin:2px 0;
+    color:rgb(129, 78, 11);
+}
+.exercise p{
+    color:rgba(90, 51, 4, 0.747);
+    font-weight: 500;
+}
+
+.exercise small{
+    color: gray;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.exercise button{
+    width: 100%;
+    background-image: linear-gradient(135deg, rgb(9, 33, 59), rgb(29, 82, 139));
+    font-size: 1.1rem;
+    padding: 5px;
+    color: white;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+}
