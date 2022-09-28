@@ -1,11 +1,24 @@
-nav{
-    display: flex;
-    gap: 10px;
-    background-color: rgb(9, 33, 59);
-    color: rgba(255, 255, 255, 0.822);
-    padding-left: 10%;
+nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgb(9, 33, 59);
+  padding-left: 10%;
 }
-nav img{
-    width: 100px;
-    object-fit: contain;
+nav img {
+  width: 100px;
+  object-fit: contain;
+}
+nav h3 {
+  color: rgba(255, 255, 255, 0.822);
+  font-size: 1.8rem;
+  margin: 0;
+}
+@media screen and (max-width: 688px){
+    nav h3{
+        font-size: 1.2rem;
+    }
+    nav img{
+        width: 80px;
+    }
 }

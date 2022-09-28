@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import './SideBar.css';
 import { getFromLocalStorage, sendToLocalStorage } from '../../utilities/localStorage';
-import Swal from 'sweetalert2';
 import userLogo from '../../Images/user.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faLocation, faLocationPin } from '@fortawesome/free-solid-svg-icons';
+import { faLocationPin } from '@fortawesome/free-solid-svg-icons';
+import { toast, ToastContainer } from 'react-toastify';
+import "react-toastify/dist/ReactToastify.css";
 
 const SideBar = ({duration}) => {
     const [breakTime, setBreakTime] = useState(getFromLocalStorage());
@@ -13,29 +14,27 @@ const SideBar = ({duration}) => {
         setBreakTime(time);
         sendToLocalStorage(time);
     }
-    const displayToast = () => {
-        Swal.fire({
-          icon: "success",
-          title: "Activity Completed Successfully!",
-          showConfirmButton: true,
-        });
-    }
+    const displayToast = () => toast("Wow so easy!")
+
     return (
       <div class="side-bar">
+        <ToastContainer
+          position="top-right"
+        />
+        <ToastContainer />
         <section class="user-profile">
           <img src={userLogo} alt="" />
           <div>
             <h3>Mohammad Rakib</h3>
             <p>
-              <FontAwesomeIcon icon={faLocationPin} />{" "}
-               Gazipur, Bangladesh
+              <FontAwesomeIcon icon={faLocationPin} /> Gazipur, Bangladesh
             </p>
           </div>
         </section>
         <section class="profile-details">
-            <span>Weight: 68kg</span>
-            <span>Height: 5.10F</span>
-            <span>Age : 26y</span>
+          <span>Weight: 68kg</span>
+          <span>Height: 5.10F</span>
+          <span>Age : 26y</span>
         </section>
         <section className="add-break">
           <h2 className="heading">Add A Break</h2>
