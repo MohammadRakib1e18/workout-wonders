@@ -21,17 +21,18 @@
 }
 .exercise h3{
     margin:2px 0;
-    color:rgb(129, 78, 11);
+    color:rgb(10, 78, 143);
 }
 .exercise p{
-    color:rgba(90, 51, 4, 0.747);
+    color:rgba(19, 27, 95, 0.747);
     font-weight: 500;
 }
 
 .exercise small{
-    color: gray;
+    color: rgba(13, 49, 116, 0.514);
     font-weight: 600;
     margin-right: 10px;
+    font-size: 1rem;
 }
 .exercise button{
     width: 100%;

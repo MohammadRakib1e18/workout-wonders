@@ -1,6 +1,24 @@
+.main-container{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    margin: 10px;
+    margin-top: 15px;
+}
 .exercise-container{
     width: 75%;
     display: grid;
+    margin-top: 30px;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px;
+}
+.cart-container{
+    width: 23%;
+    height: 400px;
+    overflow-y: auto;
+    background-color: rgb(111, 111, 158);
+    border: 1px solid black;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
 }

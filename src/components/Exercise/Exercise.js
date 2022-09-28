@@ -8,7 +8,7 @@ const Exercise = (props) => {
         <section className="exercise-description">
           <img src={picture} alt="" />
           <h3>{name}</h3>
-          <small>Duration: {duration}</small>
+          <small>Duration: {duration}s</small>
         </section>
         <button>{button}</button>
       </div>
