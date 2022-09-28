@@ -9,4 +9,4 @@ let sendToLocalStorage = (data) => {
     localStorage.setItem('break-time', data);
 }
 
-export default { getFromLocalStorage, sendToLocalStorage };
+export { getFromLocalStorage, sendToLocalStorage };

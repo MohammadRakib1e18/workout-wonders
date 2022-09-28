@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
 import './SideBar.css';
+import { getFromLocalStorage, sendToLocalStorage } from '../../utilities/localStorage';
 
 const SideBar = ({duration}) => {
-    const [breakTime, setBreakTime] = useState(0);
+    const [breakTime, setBreakTime] = useState(getFromLocalStorage());
 
     const breakHandler = (time) => {
         setBreakTime(time);
+        sendToLocalStorage(time);
     }
     return (
       <div>
-        <section class="add-break">
-          <h2 class="heading">Add A Break</h2>
+        <section className="add-break">
+          <h2 className="heading">Add A Break</h2>
           <ul className="break-options">
             <li onClick={() => {breakHandler(10)}}>10s</li>
             <li onClick={() => {breakHandler(20)}}>20s</li>
