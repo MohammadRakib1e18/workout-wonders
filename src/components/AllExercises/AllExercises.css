@@ -41,9 +41,6 @@
     width: 100%;
     max-width: 300px;
   }
-  nav h3 {
-    font-size: 1.2rem;
-  }
 }
 /* tablet device  */
 /* @media screen and (min-width:689px) and (max-width:992px){
