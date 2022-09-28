@@ -14,7 +14,7 @@ const SideBar = ({duration}) => {
         setBreakTime(time);
         sendToLocalStorage(time);
     }
-    const displayToast = () => toast("Wow so easy!")
+    const displayToast = () => toast("Activity Completed Successfully!")
 
     return (
       <div class="side-bar">
