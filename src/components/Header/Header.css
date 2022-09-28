@@ -1,0 +1,11 @@
+nav{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(9, 33, 59);
+    color: rgba(255, 255, 255, 0.822);
+    padding-left: 10%;
+}
+nav img{
+    width: 100px;
+    object-fit: contain;
+}
