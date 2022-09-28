@@ -1,3 +1,27 @@
+
+.user-profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.user-profile img{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border: 2px solid rgb(209, 208, 208);
+    border-radius: 50%;
+}
+.user-profile h3, p{
+    margin: 0;
+}
+.profile-details{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    color: gray;
+    padding: 8px 2px;
+    margin-top: 10px;
+}
 .break-options{
     display: flex;
     justify-content: space-between;
