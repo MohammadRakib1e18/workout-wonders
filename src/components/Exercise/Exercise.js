@@ -3,14 +3,15 @@ import './Exercise.css';
 
 const Exercise = (props) => {
     const {picture, name, button, duration} = props.data;
+    const addToCart = props.addToCart;
     return (
-      <div class="exercise">
+      <div className="exercise">
         <section className="exercise-description">
           <img src={picture} alt="" />
           <h3>{name}</h3>
           <small>Duration: {duration}s</small>
         </section>
-        <button>{button}</button>
+        <button onClick={() => {addToCart(name)}}>{button}</button>
       </div>
     );
 };
