@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './SideBar.css';
 import { getFromLocalStorage, sendToLocalStorage } from '../../utilities/localStorage';
+import Swal from 'sweetalert2';
 
 const SideBar = ({duration}) => {
     const [breakTime, setBreakTime] = useState(getFromLocalStorage());
@@ -8,6 +9,13 @@ const SideBar = ({duration}) => {
     const breakHandler = (time) => {
         setBreakTime(time);
         sendToLocalStorage(time);
+    }
+    const displayToast = () => {
+        Swal.fire({
+          icon: "success",
+          title: "Activity Completed Successfully!",
+          showConfirmButton: true,
+        });
     }
     return (
       <div>
@@ -31,6 +39,9 @@ const SideBar = ({duration}) => {
             <span>Break time</span>
             <span className="gray">{breakTime} seconds</span>
           </h4>
+        </section>
+        <section class="activity-completed" onClick={displayToast}>
+            <h1>Activity Completed</h1>
         </section>
       </div>
     );
